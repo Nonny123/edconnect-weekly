@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Search</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-primary">
+            <a class="navbar-brand">Project Explorer</a>
+            
+            <form class="form-inline">
+              <input class="form-control" type="search" placeholder="Search Projects" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+           
+          </nav>
+
+  <main>
+ <div class="container">
+     
+     <h2>Project Gallery</h2>
+    <div class="bg-light p3">
+        <form name="searchForm">
+           <div class="form-row">
+            <div class="form-group col-md-6">
+              <input type="text" name="searchTerm" placeholder="Project Name, Authors, Abstract, Tags " class="form-control form-control-lg" id="searchTerm">
+            </div>
+            <div class="form-group col-md-1">
+              <label for="searchBy">Search By:</label>           
+            </div>
+            <div class="form-group col-md-3">
+                <select class="form-control form-control-lg" name="searchType">
+                    <option value="Name">Name</option>
+                    <option value="Abstract">Abstract</option>
+                    <option value="Authors">Authors</option>
+                    <option value="Tags">Tags</option>
+                </select>
+            </div>
+            <div class="form-group col-md-2">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </div>
+          </div>
+          
+         
+        </form>
+       
+      </div>
+ </div>
+
+ <div class="container">
+     <h2>All Projects</h2><span>0 results</span>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card" style="width: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Library Management System</h5>
+              <h6 class="card-subtitle mb-2 text-muted">John Obi</h6>
+              <p class="card-text">An app used for the management of a school's library</p>
+              <a href="#" class="card-link">#Management</a>
+              <a href="#" class="card-link">#Database</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Hostel Management System</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Francis Terry</h6>
+              <p class="card-text">An app used for the management of a school's hostel</p>
+              <a href="#" class="card-link">Management System</a>
+              <a href="#" class="card-link">Database System</a>
+            </div>
+          </div>
+     </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Project Monitoring System</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Wisdom Peters</h6>
+              <p class="card-text">An app for project monitoring and tracking</p>
+              <a href="#" class="card-link">Management System</a>
+              <a href="#" class="card-link">Database System</a>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Inventory Management System</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Mike Festus</h6>
+              <p class="card-text">An app used for the management of a store's inventory</p>
+              <a href="#" class="card-link">Management System</a>
+              <a href="#" class="card-link">Database System</a>
+            </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="container">
+    <footer>
+        <p class="text-right">Project Explorer &copy; 2021. Edconnect </p>
+      </footer>
+  </div>
+
+</main>
+  
+</body>
+</html>
